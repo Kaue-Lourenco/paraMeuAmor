@@ -1,7 +1,7 @@
 const ul = document.getElementsByClassName('lista_imagem')[0]
-const ultimoItem = ul.lastElementChild;
 
 function addFoto(foto) {
+    const ultimoItem = ul.lastElementChild;
     const img = document.createElement('img')
     img.className = 'foto';
     img.src = foto;
@@ -14,4 +14,3 @@ function addFoto(foto) {
 }
 
 export default addFoto;
-
