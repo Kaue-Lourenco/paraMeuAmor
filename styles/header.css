@@ -1,0 +1,18 @@
+header {
+    background-color: var(--cor-marrom);
+    border: solid var(--cor-secundaria) .3rem;
+    padding: 1rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categorias {
+    position: relative;
+    text-align: center;
+    background-color: var(--cor-amarelo);
+    padding: .7rem 1.4rem .3rem 1.4rem;
+    box-shadow: var(--sombra);
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}

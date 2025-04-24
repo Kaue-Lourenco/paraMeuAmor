@@ -1,0 +1,111 @@
+.body_nos {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* gap: 8rem; */
+    background-image: url('../img/ame.png');
+    background-size: 110px 110px;
+    background-position: 1250px 1250px;
+}
+
+.momentos {
+    transform: rotate(-7deg);
+    left: 20%;
+    top: 0;
+    padding: .5rem 1rem;
+}
+
+.conteiner_imagens_momentos {
+    padding-top: 35%;
+}
+
+.lista_imagem {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 0.8rem;
+    position: relative;
+    z-index: 0;
+}
+
+.itme_imagem {
+    width: 25%;
+    border-radius: 5px;
+    padding: .4rem .4rem 2rem .4rem;
+    height: auto;
+    background-color: var(--fundo-da-imagem);
+    transform-origin: top;
+    position: relative;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.alfinet {
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 40%;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.notacao {
+    width: 8rem;
+    height: 9rem;
+    font-size: 1.4rem;
+    background-color: gold;
+    padding: .1rem .8rem 0rem .8rem;
+    z-index: 1;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.6);
+    transform: rotate(-5deg);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    
+    font-size: 1.4rem;
+    background-color: gold;
+    z-index: 1;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.6);
+    transform: rotate(-18deg);
+}
+
+.post_it_nos {
+    text-align: center;
+    top: -1%;
+    left: -10%;
+    padding: .3rem 0rem;
+    width: 8rem;
+}
+
+.post_it_tempo {
+   transform: rotate(-2deg);
+   background-color: gold;
+   position: absolute;
+   bottom: -8%;
+   left: 4%;
+   width: 80%;
+   text-align: center;
+   padding: 2rem 1.4rem;
+   box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.post_it_tempo_titulo {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.data {
+    display: flex;
+    font-size: 2rem;
+    padding: 0 1.9951rem;
+    word-spacing: -8px;
+}
